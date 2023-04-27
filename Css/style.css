@@ -1,0 +1,261 @@
+                                                                        body {
+                                                                            color: #bfc1c8;
+                                                                            font-family: "Roboto", "Open Sans", sans-serif;
+                                                                            font-size: 14px;
+                                                                            font-weight: 300;
+                                                                            line-height: 1.5;
+                                                                            background: #1e202b;
+                                                                        }
+                                                                        
+                                                                        .navbar-nav .nav-link.active,
+                                                                        .navbar-nav .show>.nav-link {
+                                                                            color: white;
+                                                                        }
+                                                                        
+                                                                        .navbar-toggler {
+                                                                            padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+                                                                            font-size: var(--bs-navbar-toggler-font-size);
+                                                                            line-height: 1;
+                                                                            color: #009ad8;
+                                                                            background-color: transparent;
+                                                                            border: var(--bs-border-width) solid transparent;
+                                                                            border-radius: var(--bs-navbar-toggler-border-radius);
+                                                                            transition: var(--bs-navbar-toggler-transition);
+                                                                        }
+                                                                        
+                                                                        .navbar-brand img {
+                                                                            width: 35%;
+                                                                        }
+                                                                        
+                                                                        .navbar-brand h1 {
+                                                                            font-size: 16px;
+                                                                            text-align: left;
+                                                                        }
+                                                                        
+                                                                        .navbar-brand small {
+                                                                            font-size: 10px;
+                                                                            display: block;
+                                                                            color: #bfc1c8;
+                                                                        }
+                                                                        /* li {
+            transition: all 1s;
+            -webkit-transition: all 1s;
+            -moz-transition: all 1s;
+            -ms-transition: all 1s;
+            -o-transition: all 1s;
+        }
+        
+        li:hover {
+            border: 1px solid #009ad8;
+        } */
+                                                                        
+                                                                        .navbar-nav .nav-link.active,
+                                                                        .navbar-nav .show>.nav-link {
+                                                                            border: 1px solid #009ad8;
+                                                                            color: #009ad8;
+                                                                        }
+                                                                        
+                                                                        .nav-link {
+                                                                            color: white;
+                                                                            transition: all 1s;
+                                                                            -webkit-transition: all 1s;
+                                                                            -moz-transition: all 1s;
+                                                                            -ms-transition: all 1s;
+                                                                            -o-transition: all 1s;
+                                                                        }
+                                                                        
+                                                                        .nav-link:focus,
+                                                                        .nav-link:hover {
+                                                                            color: #009ad8;
+                                                                        }
+                                                                        
+                                                                        .backImage {
+                                                                            background-image: url(../img/kerri2.png);
+                                                                            background-repeat: no-repeat;
+                                                                        }
+                                                                        
+                                                                        .search-input {
+                                                                            width: 90%;
+                                                                            margin: auto;
+                                                                            padding: 20px 50px 20px 20px;
+                                                                            background: #1e202b;
+                                                                            color: white;
+                                                                            border: none
+                                                                        }
+                                                                        
+                                                                        input:focus {
+                                                                            border: none
+                                                                        }
+                                                                        
+                                                                        .findBtn {
+                                                                            position: absolute;
+                                                                            top: 13%;
+                                                                            right: 3.1%;
+                                                                            padding: 0 30px;
+                                                                        }
+                                                                        
+                                                                        .SubscribeBtn {
+                                                                            position: absolute;
+                                                                            top: 13%;
+                                                                            right: 7.5%;
+                                                                            padding: 0 30px;
+                                                                        }
+                                                                        
+                                                                        .btn {
+                                                                            border: none;
+                                                                            background: #009ad8;
+                                                                            padding: 10px 35px;
+                                                                            border-radius: 30px;
+                                                                            color: white;
+                                                                        }
+                                                                        
+                                                                        .btn:hover {
+                                                                            border: none;
+                                                                            background: #009ad8;
+                                                                            padding: 10px 35px;
+                                                                            border-radius: 30px;
+                                                                            color: white;
+                                                                        }
+                                                                        
+                                                                        .forecast-container {
+                                                                            width: 75%;
+                                                                            margin: auto;
+                                                                            background: #323544;
+                                                                            border-radius: 10px;
+                                                                            margin-bottom: 50px;
+                                                                        }
+                                                                        
+                                                                        .site-footer {
+                                                                            background: #262936;
+                                                                            padding: 50px 0;
+                                                                        }
+                                                                        
+                                                                        .social-icons a {
+                                                                            width: 40px;
+                                                                            height: 40px;
+                                                                            display: inline-block;
+                                                                            border-radius: 50%;
+                                                                            background: #1e202b;
+                                                                            color: #009ad8;
+                                                                            text-align: center;
+                                                                            line-height: 2;
+                                                                            -webkit-transition: 0.3s ease;
+                                                                            transition: 0.3s ease;
+                                                                            font-size: 18px;
+                                                                            font-size: 1.4285714286em;
+                                                                            margin-left: 10px;
+                                                                        }
+                                                                        
+                                                                        .social-icons a {
+                                                                            transition: all 1s;
+                                                                            -webkit-transition: all 1s;
+                                                                            -moz-transition: all 1s;
+                                                                            -ms-transition: all 1s;
+                                                                            -o-transition: all 1s;
+                                                                        }
+                                                                        
+                                                                        .social-icons a:hover {
+                                                                            background: #009ad8;
+                                                                            color: white;
+                                                                        }
+                                                                        
+                                                                        .social-icons a:hover {
+                                                                            transition: all 0.5s;
+                                                                            -webkit-transition: all 0.5s;
+                                                                            -moz-transition: all 0.5s;
+                                                                            -ms-transition: all 0.5s;
+                                                                            -o-transition: all 0.5s;
+                                                                        }
+                                                                        
+                                                                        .social-icons a:hover {
+                                                                            color: white;
+                                                                        }
+                                                                        
+                                                                        .forecast-header .row {
+                                                                            background-color: #2d303d;
+                                                                        }
+                                                                        
+                                                                        h2 {
+                                                                            font-size: 80px;
+                                                                        }
+                                                                        
+                                                                        .card {
+                                                                            word-wrap: unset
+                                                                        }
+                                                                        
+                                                                        .forecast-header {
+                                                                            background-color: #2d303d;
+                                                                        }
+                                                                        
+                                                                        .forecast-header2 {
+                                                                            background-color: #222530;
+                                                                        }
+                                                                        
+                                                                        .card {
+                                                                            --bs-card-border-color: none;
+                                                                            --bs-card-bg: transparent;
+                                                                        }
+                                                                        
+                                                                        .custom {
+                                                                            color: #009ad8;
+                                                                            margin: 10px 0;
+                                                                        }
+                                                                        
+                                                                        .sec2 .card {
+                                                                            --bs-border-radius: 0rem;
+                                                                        }
+                                                                        
+                                                                        .sec2 {
+                                                                            background-color: #262936;
+                                                                        }
+                                                                        
+                                                                        @media screen and (max-width: 995px) {
+                                                                            .form-contol {
+                                                                                width: 100%;
+                                                                            }
+                                                                            .SubscribeBtn {
+                                                                                top: 13%;
+                                                                                right: 2%;
+                                                                                padding: 0 0px;
+                                                                            }
+                                                                            .colophon {
+                                                                                text-align: center;
+                                                                            }
+                                                                            .social-links {
+                                                                                margin-bottom: 15px;
+                                                                            }
+                                                                            .findBtn {
+                                                                                position: absolute;
+                                                                                top: 13%;
+                                                                                right: 2%;
+                                                                                padding: 0 0px;
+                                                                            }
+                                                                            .nav-link:focus,
+                                                                            .nav-link:hover {
+                                                                                border: none;
+                                                                                color: #009ad8;
+                                                                            }
+                                                                            .navbar-nav .nav-link.active,
+                                                                            .navbar-nav .show>.nav-link {
+                                                                                border: none;
+                                                                                color: #009ad8;
+                                                                            }
+                                                                            .navbar-nav {
+                                                                                background: #262936;
+                                                                                border-radius: 10px;
+                                                                                -webkit-border-radius: 10px;
+                                                                                -moz-border-radius: 10px;
+                                                                                -ms-border-radius: 10px;
+                                                                                -o-border-radius: 10px;
+                                                                            }
+                                                                            .nav-item {
+                                                                                border-bottom: 1px solid #988e831d;
+                                                                                padding: 10px 0;
+                                                                            }
+                                                                            .g {
+                                                                                border: none;
+                                                                            }
+                                                                            .navbar-toggler-icon {
+                                                                                background-image: none;
+                                                                            }
+                                                                        }

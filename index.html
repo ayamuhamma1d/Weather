@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="shortcut icon" href="..">
+
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="Css/all.min.css">
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-transparent  py-4 align-items-center my-3  text-center">
+        <div class="container">
+            <a class="navbar-brand ps-lg-5 d-flex " href="#"><img src="img/kerri1.png" alt="">
+                <div class="header-logo ps-3 text-white">
+                    <h1 class=" pt-2 mb-1 fw-bold">Weather</h1>
+                    <small>tagline goes here</small>
+                </div>
+            </a>
+            <button class="navbar-toggler rounded-pill pb-4 mx-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon text-center text-white d-flex justify-content-center align-items-center">
+<i class="fa-solid fa-bars"></i>
+            </span>
+        </button>
+            <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item">
+                        <a class=" nav-link rounded-pill active  px-4  mb-3 my-1" aria-current="page " href="#home">Home</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link rounded-pill px-4 mx-3 my-1" aria-current="page " href="# ">News</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class=" nav-link rounded-pill px-4 mx-3 my-1" aria-current="page " href="# ">Live cameras</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link rounded-pill px-4 mx-3 my-1" aria-current="page " href="# ">Photos</a>
+                    </li>
+                    <li class="nav-item g">
+                        <a class=" nav-link rounded-pill px-4 mx-3 my-1" aria-current="page " href="# ">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="home" class="backImage  d-flex align-items-center mb-5  flex-wrap">
+        <div class="container">
+            <form class="form-group my-5 position-relative text-center search-location">
+                <input type="search" id="search-bar" class="form-contol rounded-pill search-input" autocomplete="off" name="city" placeholder="Find Your Location.... ">
+                <div class="findBtn">
+                    <button class=" btn btn-primary rounded-pill ">Find</button>
+                </div>
+            </form>
+        </div>
+        <div class="forecast-container">
+            <div class="container ">
+                <div class="row" id="card">
+                    <div class="col-lg-4 px-0">
+                        <div class=" card border-success mb-3 ">
+                            <div class="card-header forecast-header d-flex justify-content-between ">
+                                <p class=" mb-0" id="date"></p>
+                                <p class=" mb-0" id="dayOfMonth"></p>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title pt-3 " id="location"></h5>
+                                <div class="d-flex flex-wrap ps-2 ">
+                                    <h2 class="card-text text-white fw-bold pe-5 " id="today-degree"></h2>
+                                    <img id="today-icon" src="img/kerri3.png " alt=" " width="90 ps-2 " class="default_cursor_cs "> </div>
+                            </div>
+                            <div class="card-footer bg-transparent custom " id="today-description"></div>
+                            <div class="d-flex ">
+                                <div class="ps-4 "><img src=" img/kerri4.png " alt=" "><span class="ps-1 " id="humidty"></span>%</div>
+                                <div class="ps-4 "><img src="img/kerri5.png " alt=" "><span id="wind" class="ps-1"></span></div>
+                                <div class="ps-4 "><img src="img/kerri6.png " alt=" "><span class="ps-1" id="compass">East</span> </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 px-0 sec2 " id="secTwo">
+                        <div class="card border-success mb-3 rounded-0 text-center ">
+                            <div class="card-header forecast-header2 mb-5 ">
+                                <p class=" mb-0 " id="tomorrow"></p>
+                            </div>
+                            <div class="text-center ">
+                                <img id="nextDay-icon" src="img/kerri7.png " alt=" " width="50 " class="default_cursor_cs "> </div>
+                            <div class="card-body ">
+                                <h3 class="card-text text-white fw-bold" id="max-degree">&deg;C</h3>
+                                <p class=" mb-0  " id="min-degree">&deg;C</p>
+                            </div>
+                            <div class="card-footer bg-transparent custom  " id="nextDay-description"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 px-0 ">
+                        <div class="card border-success mb-3 rounded-0 text-center ">
+                            <div class="card-header forecast-header2 mb-5 ">
+                                <p class=" mb-0 " id="afterTomorrow"></p>
+                            </div>
+                            <div class=" text-center ">
+                                <img id="afterTomorrowIcon" src="img/kerri7.png " alt=" " width="50 " class="default_cursor_cs "> </div>
+                            <div class="card-body ">
+                                <h3 class="card-text text-white fw-bold " id="afterTomorrowMaxD">&deg;C</h3>
+                                <p class="mb-0" id="afterTomorrowMinD">&deg;C</p>
+                            </div>
+                            <div class="card-footer bg-transparent custom" id="afterTomorrowDescription"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="site-footer py-5 ">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-lg-8 ">
+                    <div class="form-group mb-5 position-relative ms-5 ">
+                        <input type="search" class="form-contol rounded-pill search-input " placeholder="Enter Your Email to subscribe.... ">
+                        <div class="SubscribeBtn">
+                            <button class=" btn btn-primary rounded-pill ">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-offset-1 text-center ">
+                    <div class="social-links d-flex justify-content-center align-items-center ">
+                        <div class="social-icons rounded-circle "><a href="#"><i class="fa-brands fa-facebook-f "></i></a></div>
+                        <div class="social-icons rounded-circle "><a href="# "><i class="fa-brands fa-twitter "></i></a></div>
+                        <div class="social-icons rounded-circle "><a href="# "><i class="fa-brands fa-google-plus-g "></i></a></div>
+                        <div class="social-icons rounded-circle "><a href="# "><i class="fa-brands fa-pinterest "></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="colophon ms-5 ">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+    </footer>
+    <script src="js/bootstrap.bundle.js "></script>
+    <script src="js/index.js "></script>
+</body>
+
+</html>
